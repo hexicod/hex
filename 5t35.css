@@ -347,21 +347,3 @@ font-weight: 100;
   background-color: #0071e3;
   color: #ffffff;
 }
-
-.btn-hexizap {
-  display: inline-block;
-  padding: 5px 12px; 
-  font-size: 12px; 
-  font-family: Arial, sans-serif; 
-  color: #0071e3; 
-  background-color: transparent;
-  border: 1px solid #0071e3;
-  border-radius: 25px; 
-  text-decoration: none; 
-  font-weight: 250;
-  transition: background-color 0.3s ease, color 0.3s ease; 
-}
-.btn-hexizap:hover {
-  background-color: #0071e3;
-  color: #ffffff;
-}
