@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ - Hexicod</title>
+  <link rel="icon" type="image/png" href="h08.png">
+  <link rel="stylesheet" href="5t35.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    .faq-section { padding-top: 150px; padding-bottom: 100px; }
+    .faq-container { max-width: 800px; margin: 0 auto; }
+    .faq-item {
+      border-bottom: 1px solid #d2d2d7;
+      padding: 24px 0;
+    }
+    summary {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+    }
+    summary::-webkit-details-marker { display: none; }
+    summary::after {
+      content: '+';
+      font-size: 24px;
+      color: var(--text-gray);
+      transition: transform 0.3s ease;
+    }
+    details[open] summary::after { transform: rotate(45deg); }
+    .faq-content {
+      margin-top: 16px;
+      color: var(--text-gray);
+      font-size: 17px;
+      line-height: 1.5;
+      max-width: 90%;
+    }
+    .back-link {
+      display: inline-block;
+      margin-top: 40px;
+      color: var(--text-main);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .back-link:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header id="header">
+    <nav class="nav-container">
+      <div class="nav-content">
+        <a href="index.html" class="logo">HEXICOD</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Trabalhos</a></li>
+          <li><a href="index.html#sobre">Sobre</a></li>
+          <li><a href="mailto:teamhexicod@gmail.com">Contato</a></li>
+        </ul>
+        <div class="nav-spacer"></div>
+      </div>
+    </nav>
+  </header>
+  <main class="faq-section">
+    <div class="container faq-container">
+      <span class="text-gray" style="font-weight: 600; font-size: 12px; text-transform: uppercase;">Suporte</span>
+      <h1 style="font-size: 48px; margin-bottom: 40px;">Perguntas Frequentes</h1>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Qual o diferencial da Hexicod?</summary>
+          <div class="faq-content">
+            Focamos na união entre design minimalista e engenharia de software robusta, garantindo que o site seja bonito e tecnicamente impecável.
+          </div>
+        </details>
+        <details class="faq-item">
+          <summary>Como posso iniciar um projeto com a Hexicod?</summary>
+          <div class="faq-content">
+            Para iniciar um projeto basta entrar em contato via email teamhexicod@gmail.com ou Instagram para realizar o levantamento de requisitos.
+          </div>
+        </details>
+        <details class="faq-item">
+          <summary>O que é Arquitetura Modular?</summary>
+          <div class="faq-content">
+            É uma metodologia de organização de código que facilita manutenções e permite que o sistema cresça de forma segura.
+          </div>
+        </details>
+        <details class="faq-item">
+          <summary>Os sites são desenvolvidos para dispositivos móveis?</summary>
+          <div class="faq-content">
+            Sim. Desenvolvemos sites responsivos que se adaptam a diferentes tamanhos de tela, garantindo uma otima experiência para os usuários em qualquer dispositivo.
+          </div>
+        </details>
+        </div>
+      <a href="index.html" class="back-link">← Voltar para o início</a>
+    </div>
+  </main>
+    <footer id="contato">
+    <div class="footer-container">
+      <div class="footer-bottom">
+        <div class="footer-copy">© 2026 Hexicod.</div>
+        <div class="footer-links">
+          <span class="footer-label">Mais Informações:</span>
+          <a href="mailto:teamhexicod@gmail.com" target="_blank">Email</a>
+          <span class="sep">|</span>
+          <a href="https://instagram.com/hexicod" target="_blank">Instagram</a>
+          <span class="sep">|</span>
+          <a href="https://github.com/hexicod" target="_blank">GitHub</a>
+          <span class="sep">|</span>
+          <a href="https://wa.me/5569999950703" target="_blank">WhatsApp</a>
+        </div>
+        <div class="footer-location">Brasil</div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
