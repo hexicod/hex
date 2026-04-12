@@ -128,5 +128,16 @@
       </div>
     </div>
   </footer>
+  <script>
+  const menuLinks = document.querySelectorAll('.nav-links a');
+  const menuToggle = document.querySelector('.menu-toggle');
+  const navLinks = document.querySelector('.nav-links');
+  menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      menuToggle.classList.remove('active');
+      navLinks.classList.remove('show');
+    });
+  });
+</script>
 </body>
 </html>
