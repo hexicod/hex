@@ -1,3 +1,3 @@
 social media: @hexicod
 
-<kbd>**`[hexicod](hexicod.com.br)`**</kbd>
+<kbd>[**`hexicod`**](hexicod.com.br)</kbd>
